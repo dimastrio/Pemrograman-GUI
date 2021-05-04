@@ -1,4 +1,4 @@
-# Tugas Qt Designer Pemrograman GUI
+# Tugas Pemrograman GUI
 
 | Nama | NIM | Kelas |
 |--|--|--|
