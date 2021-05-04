@@ -1,23 +1,10 @@
 
-# Tugas Praktikum Pemrograman GUI
-=======
-
 # Tugas Pemrograman GUI
-
 
 | Nama | NIM | Kelas |
 |--|--|--|
 |Tri Dimas Cipto S.W|19104029| S1SE03B
 <br>
-
-
-=======
-<p align="center">
-  <img src=https://user-images.githubusercontent.com/72629575/114374927-59e92b00-9bae-11eb-82eb-5161c341f6b1.png>
-</p>
-
-***
-
 <h3 align = "center">Desain Layout Aplikasi Data Mahasiswa menggunakan Qt Designer</h3> 
 <br>
 
