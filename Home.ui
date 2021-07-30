@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Home</class>
+ <widget class="QMainWindow" name="Home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>371</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;Poppins&quot; ; color:white</string>
+    </property>
+    <property name="text">
+     <string>Sistem Informasi RT 01</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>600</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #2A3C44;
+border-radius:10px;</string>
+    </property>
+    <widget class="QPushButton" name="btnKepKel">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>140</y>
+       <width>160</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 11pt &quot;Poppins&quot;;color:white;
+background-color:#475A63;
+border:1px #475A63;
+border-radius:5px</string>
+     </property>
+     <property name="text">
+      <string>Data Kepala
+Keluarga</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnIuran">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>140</y>
+       <width>160</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 11pt &quot;Poppins&quot;;color:white;
+background-color:#475A63;
+border:1px #475A63;
+border-radius:5px</string>
+     </property>
+     <property name="text">
+      <string>Iuran</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnLap">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>250</y>
+       <width>160</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 11pt &quot;Poppins&quot;;color:white;
+background-color:#475A63;
+border:1px #475A63;
+border-radius:5px</string>
+     </property>
+     <property name="text">
+      <string>Laporan
+Keuangan</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnKeluar">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>250</y>
+       <width>160</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 11pt &quot;Poppins&quot;;color:white;
+background-color:#475A63;
+border:1px #475A63;
+border-radius:5px</string>
+     </property>
+     <property name="text">
+      <string>Keluar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>601</width>
+       <height>401</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:50px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Background.png</pixmap>
+     </property>
+    </widget>
+    <zorder>label_2</zorder>
+    <zorder>btnKepKel</zorder>
+    <zorder>btnIuran</zorder>
+    <zorder>btnLap</zorder>
+    <zorder>btnKeluar</zorder>
+   </widget>
+   <zorder>widget</zorder>
+   <zorder>label</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
